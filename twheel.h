@@ -1,4 +1,7 @@
 
+#ifndef _TWHEEL_H_
+#define _TWHEEL_H_
+
 #include <stdint.h>
 
 #define TIME_NEAR_SHIFT 8
@@ -53,4 +56,6 @@ timewheel_update(uint64_t t);
 
 uint64_t
 timewheel_gettime();
+
+#endif
 
